@@ -5,9 +5,10 @@ class Auth {
     async register(req,res){
         const {name,email,password,type} = req.body;
 
-        const validations =[ check(name).isEmpty,
+        const validations =[ 
+         check(name).isString,
          check(email).isEmail,
-         check(password).isEmpty,
+         check(password).isString,
          check(type).isEmpty]
 
          const errors = validationResult(validations);
@@ -22,6 +23,7 @@ class Auth {
             password: password,
             type: type
         })
+        res.json(saveUser);
     }   
 }
 

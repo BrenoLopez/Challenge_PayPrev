@@ -5,6 +5,4 @@ const auth = require('../controllers/AuthController');
 
     routes.post('/register',auth.register);
 
-
-
 module.exports= routes;
