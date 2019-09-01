@@ -1,6 +1,6 @@
 FORMAT: 1A
 
-HOST: https://backend-bossa-box.herokuapp.com
+HOST: https://challenge-payprev.herokuapp.com
 
 #  Teste Back-End PayPrev
 
