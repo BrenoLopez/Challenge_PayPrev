@@ -1,7 +1,7 @@
 #  Teste Back-End PayPrev
 
 ## Instalação 
-    1. Depois de clonado o repósitorio rode o comando yarn install ou npm instll na pasta raiz
+    1. Depois de clonado o repósitorio rode o comando yarn install ou npm install na pasta raiz
     2. Execute o comando yarn ou npm start para executar o projeto em ambiente de deploy
     3. Execute o comando yarn ou npm dev para executar o projeto em ambiente de desenvolvimento
     
