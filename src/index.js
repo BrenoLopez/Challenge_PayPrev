@@ -15,5 +15,5 @@ server.use(express.json());
 server.use('/auth',authRoutes);
 server.use('/',express.static(path.resolve(__dirname,'..','documentation')));
 server.use(basicRoutes);
-server.listen(8000);
+server.listen(process.env.PORT||8000);
 
