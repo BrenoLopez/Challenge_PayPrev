@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 //classe responsavel pela conexão com o banco de dados mongodb
 class connection{
      constructor(){
-         const url = 'mongodb://localhost:27017/payprev';
+         const url = 'mongodb+srv://challengepayprev:challengepayprev@cluster0-p7tt2.mongodb.net/payprev?retryWrites=true&w=majority';
          const options = {useNewUrlParser: true, useCreateIndex: true,useFindAndModify : false};
         try{
             mongoose.connect(url,options);
